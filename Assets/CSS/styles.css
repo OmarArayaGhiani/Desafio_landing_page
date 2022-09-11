@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(../Img/Header.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 1px solid black;
+}
+
+header div {
+    padding: 100px;
+}
+
+h1, h2 {
+    color: gainsboro;
+    padding: 10px;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+main {
+    background-color: seashell;
+    padding: 30px;
+}
+
+main div {
+    width: 50%;
+    margin: 0px auto 0px auto;
+    display: flex;
+}
+
+main img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    margin: 30px 30px 15px auto;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.product {
+    width: 30%;
+    margin: auto auto auto 30px;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.price {
+    font-size: 18px;
+    color: rgb(82, 80, 80);
+}
+
+.price2 {
+    color: darkgreen;
+}
+
+footer {
+    padding: 15px;
+    font-size: 15px;
+    font-style: italic;
+    display: flex;
+    background-color: burlywood;
+}
+
+.textLeft {
+    margin: 0px auto 0px 0px;
+}
+
+.textRight { 
+    margin: 0px 0px 0px auto;
+}
